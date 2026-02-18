@@ -6,7 +6,7 @@ Some of the scripts backup to a git repositories, while others may use different
 ## Auto-update this repo
 Crontab:
 ```crontab
-@hourly git -C /path/to/repo/backup-scripts pull
+*/5 * * * * git -C /path/to/repo/backup-scripts pull
 ```
 
 ## [Git Backups](git)

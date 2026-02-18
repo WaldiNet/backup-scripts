@@ -7,5 +7,5 @@ All scripts have a `--help` flag that will print usage information.
 ## Backup Arcane
 Cron example usage:
 ```crontab
-*/5 * * * * /path/to/repo/backup-scripts/git/backup-arcane.sh --path /data/compose/arcane/data/projects --user "Eric Falsett" --email eric.falsett@gmail.com --push
+*/5 * * * * /path/to/repo/backup-scripts/git/backup-arcane-projects.sh --path /opt/docker --user "Eric Falsett" --email eric.falsett@gmail.com --push
 ```
