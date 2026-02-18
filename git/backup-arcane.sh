@@ -6,7 +6,7 @@
 
 # --- Defaults ---
 TARGET_DIR="."
-DEFAULT_KEYS="password|pw|passwd|client_?id|secret|key|token|auth|credential|private|cert|signature|salt"
+DEFAULT_KEYS="password|pw|passwd|client_?id|secret|key|token|auth|credential|private|cert|signature|salt|claim"
 GIT_AUTHOR_NAME="Arcane Backup"
 GIT_AUTHOR_EMAIL="backup@arcane.local"
 PUSH_CHANGES=false
